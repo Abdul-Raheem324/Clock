@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <div><h1 class="clock-h1">Clock</h1></div>
+      <div class="time-cont">
+        <span class="hour"></span>
+        <span class="separator">:</span>
+        <span class="min"></span>
+        <span class="separator">:</span>
+        <span class="sec"></span>
+      </div>
+      <div class="stop-cont">
+        <button id="reset">Reset</button>
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+      </div>
+      <div class="stop-watch">
+        <button class="stopwatch1" onclick="stopWatch()">StopWatch</button>
+        <button class="normal-clock" onclick="normalClock()">Clock</button>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>
